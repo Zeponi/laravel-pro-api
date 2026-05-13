@@ -38,3 +38,11 @@ php artisan migrate
 ```
 php artisan serve
 ```
+
+#### Para acessar o painel administrativo
+
+Acessar /admin e criar o usuário usando o comando abaixo
+
+```
+php artisan make:filament-user
+```
